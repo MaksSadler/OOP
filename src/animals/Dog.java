@@ -1,4 +1,4 @@
-package Animals;
+package animals;
 
 import java.time.LocalDate;
 
@@ -21,4 +21,5 @@ public class Dog extends Animal {
     public void swim() {
         System.out.println(getType() + " плывет неплохо...");
     }
+
 }

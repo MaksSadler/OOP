@@ -1,14 +1,14 @@
-package Animals;
+package animals;
 
 import java.time.LocalDate;
 
-public class Hog extends Animal {
-    public Hog(String name, LocalDate birthDay, Illness illness) {
+public class Hyena extends Animal {
+    public Hyena(String name, LocalDate birthDay, Illness illness) {
         super(name, birthDay, illness);
     }
     @Override
     public void toGo() {
-        System.out.println(getType() + " бежит здорово...");
+        System.out.println(getType() + " бежит очень быстро...");
     }
     @Override
     public void fly() {
@@ -16,6 +16,6 @@ public class Hog extends Animal {
     }
     @Override
     public void swim() {
-        System.out.println(getType() + " такой себе плавец...");
+        System.out.println(getType() + " кое-как плавает...");
     }
 }
